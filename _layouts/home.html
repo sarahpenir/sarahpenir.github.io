@@ -12,7 +12,7 @@ layout: archive
   </p>
   {% if post.content contains site.excerpt_separator %}
     {{ post.excerpt }}
-    <a href="{{ post.url }}">Read more <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a href="{{ post.url }}"><u>Read more <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></u></a>
   {% else %}
     {{ post.content }}
 {% endif %}
