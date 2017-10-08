@@ -16,14 +16,14 @@ tags:
   - pgrep
   - ps
   - top
-excerpt: "To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes thus far, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation will still take weeks to complete the process. Using our project-based server suddenly became compulsory."
+excerpt: "To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation would have taken weeks to complete the process. For fear of not graduating in time, using our project-based server suddenly became compulsory."
 ---
 
-To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes thus far, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation will still take weeks to complete the process. Using our project-based server suddenly became compulsory.
+To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation would have taken weeks to complete the process. For fear of not graduating in time, using our project-based server suddenly became compulsory.
 
 <!-- readmore -->
 
-In my initial attempts of using our server, my processes either ended up being in a sleep (requires some resource that is currently not available) or zombie state (dead process that hasn't been cleaned up properly). Here's how to keep a process running as a background in a Linux server:
+In my initial attempts of using our server, my processes either ended up being in a sleep (requires some resource that is currently not available) or zombie state (dead process that hasn't been cleaned up properly). Here's how to keep a process running as a background task in a Linux server:
 
 ```sh
 nohup command >command.log 2>command.err &
@@ -49,7 +49,7 @@ Using the process identifier (PID) listed by ```pgrep```, keep tabs on the paren
 ps PID
 ```
 
-A quick snapshot of the absolute path of the processes running in the server can be obtained with:
+A quick snapshot of the absolute paths of the processes running in the server can be obtained with:
 
 ```sh
 top -c
