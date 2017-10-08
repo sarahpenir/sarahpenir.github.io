@@ -23,7 +23,20 @@ One of the tools that we discussed in our Data Analytics class last week was can
 Both variance and SD are measures of dispersion of the data relative to the mean (i.e. how spread out the numbers are from the mean). Let’s start with <b>variance</b>. It has two different formulas, one for a population and one for a sample. Imagine the population as the universal set and the sample as the subset of the population. <b>Population variance</b> is the average of the squared distances of each element from the mean:
 
 $$
-\[\large \sigma^{2} = \frac{\sum(X_{i}-\overline{X})^{2}}{N}\]
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
 $$
 
 <b>Sample variance</b>, on the other hand, exhibits a slight difference from the population variance in terms of its denominator (the N becomes n-1):
