@@ -16,10 +16,10 @@ tags:
   - pgrep
   - ps
   - top
-excerpt: "To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, has been sufficient for my purposes thus far, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation will still take weeks to complete the process. Using our project-based server suddenly became compulsory."
+excerpt: "To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes thus far, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation will still take weeks to complete the process. Using our project-based server suddenly became compulsory."
 ---
 
-To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, has been sufficient for my purposes thus far, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation will still take weeks to complete the process. Using our project-based server suddenly became compulsory.
+To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes thus far, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation will still take weeks to complete the process. Using our project-based server suddenly became compulsory.
 
 <!-- readmore -->
 
