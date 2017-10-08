@@ -4,7 +4,7 @@ defaults:
   - scope:
       path: ""
       type: posts
-    values:
+  - values:
       layout: single
       title: "Standard Deviation and Variance"
       author_profile: true
