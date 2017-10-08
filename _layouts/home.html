@@ -8,11 +8,11 @@ layout: archive
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
-    <span class="date">{{ post.date | date: "%B %-d, %Y"}}</span>
+    <span class="date"><i>{{ post.date | date: "%B %-d, %Y"}}</i></span>
   </p>
   {% if post.content contains site.excerpt_separator %}
     {{ post.excerpt }}
-    <a href="{{ post.url }}">Read more --></a>
+    <a href="{{ post.url }}">Read more <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
   {% else %}
     {{ post.content }}
 {% endif %}
