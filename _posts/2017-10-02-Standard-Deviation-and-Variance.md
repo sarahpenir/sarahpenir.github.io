@@ -24,7 +24,7 @@ One of the tools that we discussed in our Data Analytics class last week was can
 Both variance and SD are measures of dispersion of the data relative to the mean (i.e. how spread out the numbers are from the mean). Let’s start with <b>variance</b>. It has two different formulas, one for a population and one for a sample. Imagine the population as the universal set and the sample as the subset of the population. <b>Population variance</b> is the average of the squared distances of each element from the mean:
 
 
-<b>Sample variance</b>, on the other hand, exhibits a slight difference from the population variance in terms of its denominator (the N becomes n-1):
+<b>Sample variance</b>, on the other hand, exhibits a slight difference from the population variance in terms of its denominator (the $$N$$ becomes $$n-1$$):
 
 The use of $$(n-1)$$ instead of $$N$$ is called <a href="https://en.wikipedia.org/wiki/Bessel%27s_correction">Bessel’s correction</a>. The application of the formula of population variance to calculate the sample variance often leads to the underestimation of the <b>(unknown) actual population variance</b>— which means that deviations of the sample values from the mean of the sample are, on average, a little less than the deviations of those sample values from the (unknown) true population mean. Using an $$(n-1)$$ divisor apparently corrects for that underestimation. The Wiki article on Bessel’s correction contains the mathematical proofs for this bias correction.
 
