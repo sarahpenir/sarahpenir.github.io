@@ -13,6 +13,7 @@ tags:
   - standard deviation
   - statistics
   - variance
+mathjax: true
 excerpt: "One of the tools that we discussed in our Data Analytics class last week was canonical correlation analysis (CCA). I won’t delve into CCA as I haven’t fully understood it yet, but my limited apprehension of this paper by Sherry and Henson (2005) tells me that it examines the relationship between two variable sets (usually in the form of predictor and response variables) using their shared variance. When I tried to define variance on my own without referring to a search engine, the only definition I came up with is that variance is the square of standard deviation (SD).  Evidently, my understanding of the concept is insufficient, prompting me to brush up on the topic some people would categorize as basic."
 ---
 
