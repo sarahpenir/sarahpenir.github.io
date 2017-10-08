@@ -35,7 +35,7 @@ nohup command >command.log 2>command.err &
 4. ```2>command.err```: File that captures the standard error. To redirect the standard error to the same output file as standard output, use ```2>&1```.
 5. ```&```: Runs the command as a background task
 
-pgrep can be used to monitor the process even after the original terminal that accepted the command has been closed. pgrep lists the process IDs that match the selection criteria (pattern) to standard output. For example:
+```pgrep``` can be used to monitor the process even after the original terminal that accepted the command has been closed. ```pgrep``` lists the process IDs that match the selection criteria (pattern) to standard output. For example:
 
 ```
 pgrep -u root mafft
@@ -43,7 +43,7 @@ pgrep -u root mafft
 
 will only list the processes that are called mafft and owned by root.
 
-Using the process identifier (PID) listed by pgrep, keep tabs on the parent and child processes of the command using the following command:
+Using the process identifier (PID) listed by pgrep, keep tabs on the parent and child processes of the command using the ```ps``` command:
 
 ```
 ps PID
