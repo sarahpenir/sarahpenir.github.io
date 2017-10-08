@@ -28,7 +28,8 @@ $$
 \sigma^{2}=\frac{\sum(X_{i}-\overline{X})^{2}}{N},
 \end{equation}
 $$
-where $$sigma^{2}$$ = variance, $$X_{i}$$ = value of the ith element, $$overline{X}$$ = mean of the population, $$N$$ = number of elements.
+
+where $$sigma^{2}$$ = variance, $$X_{i}$$ = value of the ith element, $$\overline{X}$$ = mean of the population, $$N$$ = number of elements.
 
 <b>Sample variance</b>, on the other hand, exhibits a slight difference from the population variance in terms of its denominator (the $$N$$ becomes $$n-1$$):
 
