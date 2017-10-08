@@ -25,7 +25,7 @@ To my disappointment, much of my experience in wrangling DNA sequences involves 
 
 In my initial attempts of using our server, my processes either ended up being in a sleep (requires some resource that is currently not available) or zombie state (dead process that hasn't been cleaned up properly). Here's how to keep a process running as a background in a Linux server:
 
-```
+```sh
 nohup command >command.log 2>command.err &
 ```
 
