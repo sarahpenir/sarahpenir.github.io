@@ -13,14 +13,21 @@ tags:
   - nohup
   - server
   - terminal
-excerpt: ""
+  - pgrep
+  - ps
+  - top
+excerpt: "To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, has been sufficient for my purposes thus far, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation would still take weeks to complete the process. Using our project-based server suddenly became necessary."
 ---
 
-To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, has been sufficient for my purposes thus far, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation would still take weeks to complete the process. Using our project-based server suddenly became necessary.
+To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, has been sufficient for my purposes, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation will still take weeks to complete the process. Using our project-based server suddenly became compulsory.
 
-In my initial attempts of using the server, my process either ended up being in a sleep (requires some resource that is currently not available) or zombie state (dead process that hasn't been cleaned up properly). Here's how to keep a process running as a background in a Linux server:
+<--! read more -->
 
+In my initial attempts of using our server, my processes either ended up being in a sleep (requires some resource that is currently not available) or zombie state (dead process that hasn't been cleaned up properly). Here's how to keep a process running as a background in a Linux server:
+
+```
 nohup command >command.log 2>command.err &
+```
 
 1. nohup: Intercepts hangup (HUP) signal that is normally sent to a process to inform that the user has logged off, in order to allow the process to continue running
 2. command: User-provided command, (e.g. mafft in > out)
@@ -41,3 +48,5 @@ ps PID
 A quick snapshot of the running commands in the server can be obtained with:
 
 top -c
+
+which lists the absolute path of the running processes.
