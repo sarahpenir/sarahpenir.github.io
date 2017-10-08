@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-     url: https://sarahpenir.github.io/about/
+     url: /about/
   - title: "Archive"
      url: /year-archive/
   - title: "Categories"
