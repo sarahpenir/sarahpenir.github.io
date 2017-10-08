@@ -1,7 +1,7 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #  url: /docs/quick-start-guide/
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
   - title: "Archive"
