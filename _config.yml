@@ -16,7 +16,7 @@ description              : "A compilation of the things I've learned over time"
 url                      : "https://sarahpenir.github.io" # the base hostname & protocol for your site e.g. 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "https://sarahtakesnotes.files.wordpress.com/2017/10/thumbnail.jpg"
+teaser                   : #"https://sarahtakesnotes.files.wordpress.com/2017/10/thumbnail.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
