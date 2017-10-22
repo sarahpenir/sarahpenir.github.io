@@ -13,9 +13,6 @@ tags:
   - R
   - error handling
   - warning handling
-image:
-  feature: "https://sarahtakesnotes.files.wordpress.com/2017/10/thumbnail.jpg"
-  thumb: "feature: "https://sarahtakesnotes.files.wordpress.com/2017/10/thumbnail.jpg"
 ---
 
 A few weeks ago, I worked on an implementation of Fisher's exact test in R. The script expects a data frame with rows representing the various cases/phenotype of my bacterium, and columns corresponding to the presence or absence of certain genes as detected by <a href="https://github.com/katholt/srst2">SRST2</a>. Fisher's exact test, which is said to work well with small sample sizes, examines the association between two categorical variables (e.g. whether the presence or absence of a gene is linked to the manifestation of a phenotype). Implementing it in R was a matter of calling the ```fisher.test()``` function on a 2x2 contingency table called ```count.df``` to generate the p-values:
