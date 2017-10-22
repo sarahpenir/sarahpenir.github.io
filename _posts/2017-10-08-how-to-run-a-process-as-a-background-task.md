@@ -16,10 +16,9 @@ tags:
   - pgrep
   - ps
   - top
-excerpt: "To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation would have taken weeks to complete the process. For fear of not graduating in time, using our project-based server suddenly became compulsory."
 ---
 
-To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though MAFFT allows multithreading, my workstation would have taken weeks to complete the process. For fear of not graduating in time, using our project-based server suddenly became compulsory.
+To my disappointment, much of my experience in wrangling DNA sequences involves short bacterial genomes. My workstation, which features a 4.0-Ghz 8-core processor and 32 Gb RAM, had been sufficient for my purposes, but only until I encountered the problem of aligning 147 whole-genome sequences prior to tree building. Even though <a href="https://mafft.cbrc.jp/alignment/software/">MAFFT</a> allows multithreading, my workstation would have taken weeks to complete the process. For fear of not graduating in time, using our project-based server suddenly became compulsory.
 
 <!-- readmore -->
 
