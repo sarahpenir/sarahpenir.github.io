@@ -84,7 +84,7 @@ analytics:
 # Site Author
 author:
   name             : "Sarah Penir"
-  avatar           : "https://sarahpenir.github.io/r/Warning-and-Error-Handling-with-trycatch/" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://sarahtakesnotes.files.wordpress.com/2017/10/1200px-nullset-svg.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I'm a knowledge hoarder. This is a self-serving space that compiles some of the things I've learned over time, mostly about coding, bioinformatics, and statistics."
   location         : "Manila, PH"
   email            :
