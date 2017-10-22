@@ -20,9 +20,8 @@ A few weeks ago, I worked on an implementation of Fisher's exact test in R. The 
 ```R
 pval <- fisher.test(count.df,alternative="two.sided")$p.value
 ```
-But alas, it wasn't that easy since some of my count tables certainly had only one row or column (i.e. lack of intersection between the variables); hence, this error message in the console:
-
 <!-- readmore -->
+But alas, it wasn't that easy since some of my count tables certainly had only one row or column (i.e. lack of intersection between the variables); hence, this error message in the console:
 
 ```R
 Error in fisher.test(count.df, alternative = "two.sided") : 'x' must have at least 2 rows and columns
