@@ -41,3 +41,9 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% endif %}
+
+{% if page.image %}
+  <meta property="og:image" content="https://sarahtakesnotes.files.wordpress.com/2017/10/thumbnail.jpg">
+{% else %}
+  <meta property="og:image" content="https://sarahtakesnotes.files.wordpress.com/2017/10/thumbnail.jpg">
+{% endif %}
