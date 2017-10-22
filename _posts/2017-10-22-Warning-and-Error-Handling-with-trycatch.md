@@ -25,7 +25,7 @@ But alas, it wasn't that easy since some of my count tables certainly had only o
 <!-- readmore -->
 
 ```R
-Error in fisher.test(count, alternative = "two.sided") : 'x' must have at least 2 rows and columns
+Error in fisher.test(count.df, alternative = "two.sided") : 'x' must have at least 2 rows and columns
 ```
 I had to look for a way to ignore the errors and print ```NA``` instead. This where the ```tryCatch()``` function comes in: it provides a mechanism for handling unusual conditions, including errors and warnings. ```tryCatch()``` follows the following syntax:
 
@@ -39,5 +39,5 @@ output <- tryCatch({expr}, warning = function(w) {warning-handler-code}, error =
 For my implementation of Fisher's exact test to work, I wrapped my original expression with the ```tryCatch()``` function, such that every time an error is encountered, it returns ```NA```:
 
 ```R
-pval <- tryCatch(fisher.test(count,alternative="two.sided")$p.value, error=function(e) NA)
+pval <- tryCatch(fisher.test(count.df,alternative="two.sided")$p.value, error=function(e) NA)
 ```
