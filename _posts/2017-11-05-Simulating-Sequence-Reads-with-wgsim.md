@@ -14,7 +14,7 @@ tags:
   - FASTQ
 ---
 
-```wgsim``` is a tool within the SAMtools software package that allows the simulation of FASTQ reads from a FASTA reference. It can simulate diploid genomes with single nucleotide polymorphisms (SNP) and insertion/deletion (indels), and create reads with uniform substitution sequencing errors. It is particularly useful when a FASTA file needs to be included in a mapping pipeline that expects FASTQ files (e.g. variant calling with closed genomes).
+```wgsim``` is a tool within the <a href="https://github.com/samtools/samtools">SAMtools</a> software package that allows the simulation of FASTQ reads from a FASTA reference. It can simulate diploid genomes with single nucleotide polymorphisms (SNP) and insertion/deletion (indels), and create reads with uniform substitution sequencing errors. It is particularly useful when a FASTA file needs to be included in a mapping pipeline that expects FASTQ files (e.g. variant calling with closed genomes).
 
 <!-- readmore -->
 
@@ -38,7 +38,7 @@ This is how I used ```wgsim``` on the reference genomes that I wanted to include
 
 ```wgsim -1 300 -2 300 -r 0 -R 0 -X 0 -e 0 reference.fasta reference_1.fastq reference_2.fastq```
 
-1. ```wgsim -1 300 -2 300```: Instructs wgsim to create paired reads of length 300 bp. The use of 300/300 read length is consistent with my other samples' read lengths (sequenced using MiSeq Reagent Kits v3 2x300).
+1. ```wgsim -1 300 -2 300```: Instructs wgsim to create paired-end reads of length 300 bp. The use of 300/300 read length is consistent with my other samples' read lengths (sequenced using MiSeq Reagent Kits v3 2x300).
 2. ``` -e 0 -r 0 -R 0 -X 0```: No errors, mutations, or indels were introduced.
-3. ```reference.fasta```: The reference genome
-4. ```reference_1.fastq reference_2.fastq```: File names of the output simulated FASTQ reads.
+3. ```reference.fasta```: The reference genome.
+4. ```reference_1.fastq reference_2.fastq```: File names of the output simulated reads.
