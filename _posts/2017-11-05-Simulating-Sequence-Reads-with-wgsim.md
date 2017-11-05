@@ -14,11 +14,11 @@ tags:
   - FASTQ
 ---
 
-wgsim is a tool included in the SAMtools software package that allows the simulation of FASTQ sequence reads from a FASTA reference genome. It can simulate diploid genomes with single nucleotide polymorphisms (SNP) and insertion/deletion, and create reads with uniform substitution sequencing errors. It is particularly useful when a FASTA file needs to be included in a mapping pipeline that expects FASTQ files (e.g. variant calling with closed genomes).
+```wgsim``` is a tool within the SAMtools software package that allows the simulation of FASTQ reads from a FASTA reference genome. It can simulate diploid genomes with single nucleotide polymorphisms (SNP) and insertion/deletion (indels), and create reads with uniform substitution sequencing errors. It is particularly useful when a FASTA file needs to be included in a mapping pipeline that expects FASTQ files (e.g. variant calling with closed genomes).
 
 <!-- readmore -->
 
-The various flags used by wgsim are as follows:
+The various flags used by ```wgsim``` are as follows:
 
 ```
 -e FLOAT      base error rate [0.02]
