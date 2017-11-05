@@ -34,9 +34,11 @@ The various flags used by ```wgsim``` are as follows:
 -A FLOAT      disgard if the fraction of ambiguous bases higher than FLOAT [0.05]
 -h            haplotype mode
 ```
-This is how I used ```wgsim``` on the reference genomes that I wanted to include in my variant calling pipeline:
+This is how I used ```wgsim``` on the reference sequences that I wanted to include in my variant calling pipeline:
 
-```wgsim -1 300 -2 300 -r 0 -R 0 -X 0 -e 0 reference.fasta reference_1.fastq reference_2.fastq```
+```
+wgsim -1 300 -2 300 -r 0 -R 0 -X 0 -e 0 reference.fasta reference_1.fastq reference_2.fastq
+```
 
 1. ```wgsim -1 300 -2 300```: Instructs wgsim to create paired-end reads of length 300 bp. The use of 300/300 read length is consistent with my other samples' read lengths (sequenced using MiSeq Reagent Kits v3 2x300).
 2. ``` -e 0 -r 0 -R 0 -X 0```: No errors, mutations, or indels were introduced.
