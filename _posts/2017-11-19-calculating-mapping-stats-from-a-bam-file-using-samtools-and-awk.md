@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Calculating Mapping Statistics from a BAM file using SAMtools and awk"
+title: "Calculating Mapping Statistics from a SAM/BAM file using SAMtools and awk"
 author_profile: true
 read_time: true
 comments: true
