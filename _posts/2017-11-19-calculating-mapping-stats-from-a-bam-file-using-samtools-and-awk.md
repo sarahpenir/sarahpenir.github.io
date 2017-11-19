@@ -75,7 +75,7 @@ samtools depth -a file.bam | awk '{c++;s+=$3}END{print s/c}'
 
    The three columns describe the reference sequence name, the 1-based leftmost mapping position, and the depth at the specified position, respectively.
 
-2. ```awk '{c++;s+=$3}END{print s/c}'```: The pipe passes the output from ```samtools -depth``` to ```awk```, which calculates two variables: ```c``` (the total number of positions), and ```s``` (the cumulative depth across all positions). The mean read depth is ```s/c```.
+2. ```awk '{c++;s+=$3}END{print s/c}'```: The pipe passes the output from ```samtools depth``` to ```awk```, which calculates two variables: ```c``` (the total number of positions), and ```s``` (the cumulative depth across all positions). The mean read depth is ```s/c```.
 
 ## Breadth of Coverage
 
@@ -85,7 +85,7 @@ samtools depth -a file.bam | awk '{c++; if($3>0) total+=1}END{print (total/c)*10
 
 1. ```samtools depth -a file.bam```: Computes the depth at each position or region. The ```-a``` flag indicates that the depth must be calculated at all positions, including at those with zero depth.
 
-2. ```awk '{c++; if($3>0) total+=1}END{print (total/c)*100}```: The pipe passes the output from ```samtools -depth``` to ```awk```, which calculates two variables: ```c``` (the total number of positions), and ```total``` (which receives an increment of 1 when the depth is greater than 0 ```if($3>0) total+=1```). The breadth of coverage is ```(total/c)*100```.
+2. ```awk '{c++; if($3>0) total+=1}END{print (total/c)*100}```: The pipe passes the output from ```samtools depth``` to ```awk```, which calculates two variables: ```c``` (the total number of positions), and ```total``` (which receives an increment of 1 when the depth is greater than 0 ```if($3>0) total+=1```). The breadth of coverage is ```(total/c)*100```.
 
 ## Proportion of the Reads that Mapped to the Reference
 
