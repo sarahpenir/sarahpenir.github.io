@@ -118,7 +118,7 @@ samtools flagstat file.bam | awk 'NR == 3 {split($5,a,"("); split(a[2],b,"%"); p
 4. ```split(a[2],b,"%")```: Captures the second element of array ```a``` and splits it into two fields:
 	```
 	b[1] = "97.21"
-	b[2] = ""
+	b[2] = ")"
 	```
 5. ```print b[1]```: Prints the proportion of the reads that mapped to the reference.
 
