@@ -63,7 +63,7 @@ Breadth of coverage of the reference genome and mean read depth, and the proport
 samtools depth -a file.bam | awk '{c++;s+=$3}END{print s/c}'
 ```
 
-1. ```samtools depth -a file.bam```: Computes the depth at each position or region. The ```-a``` flag indicates that the depth must be calculated at all positions, including those with zero depth. This command yields this data:
+1. ```samtools depth -a file.bam```: Computes the depth at each position or region. The ```-a``` flag indicates that the depth must be calculated at all positions, including at those with zero depth. This command yields the following:
 
 	```
 	chr1    249231316   7
@@ -72,7 +72,8 @@ samtools depth -a file.bam | awk '{c++;s+=$3}END{print s/c}'
 	chr1    249231319   2
 	chr1    249231320   1
 	```
-...The three columns describe the reference sequence name, the 1-based leftmost mapping position, and the depth at the specified position, respectively.
+
+The three columns describe the reference sequence name, the 1-based leftmost mapping position, and the depth at the specified position, respectively.
 
 2. ```awk '{c++;s+=$3}END{print s/c}'```: The pipe passes the output from ```samtools -depth``` to ```awk```, which calculates two variables: ```c``` (the total number of positions), and ```s``` (the cumulative depth across all positions). The mean read depth is ```s/c```.
 
@@ -82,7 +83,7 @@ samtools depth -a file.bam | awk '{c++;s+=$3}END{print s/c}'
 samtools depth -a file.bam | awk '{c++; if($3>0) total+=1}END{print (total/c)*100}'
 ```
 
-1. ```samtools depth -a file.bam```: Computes the depth at each position or region. The ```-a``` flag indicates that the depth must be calculated at all positions, including those with zero depth.
+1. ```samtools depth -a file.bam```: Computes the depth at each position or region. The ```-a``` flag indicates that the depth must be calculated at all positions, including at those with zero depth.
 
 2. ```awk '{c++; if($3>0) total+=1}END{print (total/c)*100}```: The pipe passes the output from ```samtools -depth``` to ```awk```, which calculates two variables: ```c``` (the total number of positions), and ```total``` (which receives an increment of 1 when the depth is greater than 0 ```if($3>0) total+=1```). The breadth of coverage is ```(total/c)*100```.
 
@@ -92,7 +93,7 @@ samtools depth -a file.bam | awk '{c++; if($3>0) total+=1}END{print (total/c)*10
 samtools flagstat file.bam | awk 'NR == 3 {split($5,a,"("); split(a[2],b,"%"); print b[1]}'
 ```
 
-1. ```samtools flagstat file.bam```: Does a full pass through the input file to calculate and print statistics to standard output. ```samtools flagstat``` provides the following statistics:
+1. ```samtools flagstat file.bam```: Does a full pass through the input file to calculate and print pertinent stats to standard output. ```samtools flagstat``` provides these statistics:
 
 	```
 	6874858 + 0 in total (QC-passed reads + QC-failed reads)
