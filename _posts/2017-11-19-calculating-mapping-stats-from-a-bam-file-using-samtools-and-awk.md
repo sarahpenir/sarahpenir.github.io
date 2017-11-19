@@ -93,7 +93,7 @@ samtools depth -a file.bam | awk '{c++; if($3>0) total+=1}END{print (total/c)*10
 samtools flagstat file.bam | awk -F "[(|%]" 'NR == 3 {print $2}'
 ```
 
-1. ```samtools flagstat file.bam```: Does a full pass through the input file to calculate and print pertinent stats to standard output. ```samtools flagstat``` provides these statistics:
+1. ```samtools flagstat file.bam```: Does a full pass through the input file to print pertinent stats to standard output. ```samtools flagstat``` provides these statistics:
 
 	```
 	6874858 + 0 in total (QC-passed reads + QC-failed reads)
