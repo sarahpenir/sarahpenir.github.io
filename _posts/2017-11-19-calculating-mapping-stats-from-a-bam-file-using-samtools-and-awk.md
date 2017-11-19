@@ -14,6 +14,8 @@ tags:
   - SAMtools
   - awk
   - bioinformatics
+  - SAM
+  - BAM
 ---
 
 A ```BAM``` file is the binary version of a ```SAM``` file, a tab-delimited text file that contains sequence alignment data. Mapping tools, such as ```Bowtie 2``` and ``BWA``, generate ```SAM``` files as output when aligning sequence reads to large reference sequences. The ```head``` of a ```SAM``` file takes the following form:
