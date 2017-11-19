@@ -55,7 +55,7 @@ The alignment section, on the other hand, has 11 mandatory fields, as well as a 
 | 10 | SEQ | String | Segment SEQuence |
 | 11 | QUAL | String | ASCII of Phred-scaled base QUALity+33 |
 
-Breadth of coverage of the reference genome and mean read depth, and the proportion of the raw reads that mapped to the reference genome can be obtained from a ```BAM``` file using the combination of ```awk```, and the ```SAMtools 1.3.1```  utilities ```depth``` and ```flagstat```.
+The mean read depth, breadth of coverage of the reference genome, and the proportion of the reads that mapped to the reference genome can be obtained from a ```BAM``` file using the combination of ```awk```, and the ```SAMtools 1.3.1```  utilities ```depth``` and ```flagstat```.
 
 ## Mean Read Depth
 
@@ -73,7 +73,7 @@ samtools depth -a file.bam | awk '{c++;s+=$3}END{print s/c}'
 	chr1    249231320   1
 	```
 
-The three columns describe the reference sequence name, the 1-based leftmost mapping position, and the depth at the specified position, respectively.
+   The three columns describe the reference sequence name, the 1-based leftmost mapping position, and the depth at the specified position, respectively.
 
 2. ```awk '{c++;s+=$3}END{print s/c}'```: The pipe passes the output from ```samtools -depth``` to ```awk```, which calculates two variables: ```c``` (the total number of positions), and ```s``` (the cumulative depth across all positions). The mean read depth is ```s/c```.
 
