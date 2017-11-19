@@ -45,7 +45,7 @@ The alignment section, on the other hand, has 11 mandatory fields, as well as a 
 | --- | --- | --- | --- |
 | 1 | QNAME | String | Query template NAME |
 | 2	| FLAG | Int | Bitwise FLAG |
-| 3 | RNAME | String | References sequence NAME |
+| 3 | RNAME | String | Reference sequence NAME |
 | 4 | POS | Int| 1- based leftmost mapping POSition |
 | 5 | MAPQ | Int | MAPping Quality |
 | 6 | CIGAR | String | CIGAR String |
@@ -55,7 +55,7 @@ The alignment section, on the other hand, has 11 mandatory fields, as well as a 
 | 10 | SEQ | String | Segment SEQuence |
 | 11 | QUAL | String | ASCII of Phred-scaled base QUALity+33 |
 
-The mean read depth, breadth of coverage of the reference genome, and the proportion of the reads that mapped to the reference genome can be obtained from a ```BAM``` file using the combination of ```awk```, and the ```SAMtools 1.3.1```  utilities ```depth``` and ```flagstat```.
+The mean read depth, the breadth of coverage of the reference genome, and the proportion of the reads that mapped to the reference genome can be obtained from a ```BAM``` file using the combination of ```awk```, and the ```SAMtools 1.3.1```  utilities ```depth``` and ```flagstat```.
 
 ## Mean Read Depth
 
