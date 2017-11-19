@@ -90,7 +90,7 @@ samtools depth -a file.bam | awk '{c++; if($3>0) total+=1}END{print (total/c)*10
 ## Proportion of the Reads that Mapped to the Reference
 
 ```sh
-samtools flagstat file.bam | awk 'NR == 3 {split($5,a,"("); split(a[2],b,"%"); print b[1]}'
+samtools flagstat file.bam | awk -F "[(|%]" 'NR == 3 {print $2}'
 ```
 
 1. ```samtools flagstat file.bam```: Does a full pass through the input file to calculate and print pertinent stats to standard output. ```samtools flagstat``` provides these statistics:
@@ -108,18 +108,6 @@ samtools flagstat file.bam | awk 'NR == 3 {split($5,a,"("); split(a[2],b,"%"); p
 	57057 + 0 with mate mapped to a different chr
 	45762 + 0 with mate mapped to a different chr (mapQ>=5)
 	```
-2. ```awk 'NR == 3```: Captures the third line which contains the desired mapping statistic.
-
-3. ```split($5,a,"(")```: Captures the fifth column of the third line and splits it into two fields:
-	```
-	a[1] = ""
-	a[2] = "97.21%)"
-	```
-4. ```split(a[2],b,"%")```: Captures the second element of array ```a``` and splits it into two fields:
-	```
-	b[1] = "97.21"
-	b[2] = ")"
-	```
-5. ```print b[1]```: Prints the proportion of the reads that mapped to the reference.
+2. ```awk -F "[(|%]" 'NR == 3 {print $2}'```: Extracts the third line, and uses either ```(``` or ```%``` as the field separator to capture the desired statistic ```$2```.
 
 Ultimately, these three code snippets can be called in a single shell file to automate the process of calculating mapping statistics from a ```BAM``` file.
