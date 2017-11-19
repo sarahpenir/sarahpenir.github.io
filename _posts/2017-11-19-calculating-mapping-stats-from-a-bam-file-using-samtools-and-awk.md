@@ -16,7 +16,7 @@ tags:
   - bioinformatics
 ---
 
-A ```BAM``` file is the binary version of a ```SAM``` file, a tab-delimited text file that contains sequence alignment data. Mapping tools, such as ```Bowtie 2``` and ``BWA``, generate SAM files as output when aligning sequence reads to large reference sequences. A snippet of a ```SAM``` file takes the following form:
+A ```BAM``` file is the binary version of a ```SAM``` file, a tab-delimited text file that contains sequence alignment data. Mapping tools, such as ```Bowtie 2``` and ``BWA``, generate ```SAM``` files as output when aligning sequence reads to large reference sequences. A snippet of a ```SAM``` file takes the following form:
 
 ```
 @HD	VN:1.5	SO:coordinate
@@ -35,8 +35,22 @@ The header section is denoted by the character ```@``` followed by one of the tw
 | ```@SQ``` | Reference sequence dictionary. The order of ```@SQ``` lines defines the alignment sorting order. | 
 | ```@RG``` | Read group. Unordered multiple ```@RG``` lines are allowed. | 
 | ```@PG``` | Program |
-| ```@CO``` | One-line text comment. Unordered multiple ```@CO``` lines are allowed. | 
+| ```@CO``` | One-line text comment. Unordered multiple ```@CO``` lines are allowed. |  
 
 <!-- readmore -->
 
-Testing
+The alignment section, on the other hand, has 11 mandatory fields, as well as a variable number of optional fields:
+
+| Col | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | QNAME | String | Query template NAME |
+| 2	| FLAG | Int | Bitwise FLAG |
+| 3 | RNAME | String | References sequence NAME |
+| 4 | POS | Int| 1- based leftmost mapping POSition |
+| 5 | MAPQ | Int | MAPping Quality |
+| 6 | CIGAR | String | CIGAR String |
+| 7 | RNEXT | String | Ref. name of the mate/next read |
+| 8 | PNEXT | Int | Position of the mate/next read |
+| 9 | TLEN | Int | Observed Template LENgth |
+| 10 | SEQ | String | Segment SEQuence |
+| 11 | QUAL | String | ASCII of Phred-scaled base QUALity+33 |
