@@ -23,7 +23,7 @@ He completed his undergraduate studies at the University of Auckland (the same u
 
 I was particularly intrigued of Wickham because he represented this small subset of people dedicated to tool-building. Although tools are not ends in themselves, they help create the right environment for downstream analyses from which big conclusions could be made. In my mental hall-of-fame, Wickham has achieved the status of Heng Li, the primary author of the next-generation sequencing utilities ```SAMtools``` and ```Burrows-Wheeler aligner (BWA)```. 
 
-Although it's easy to dismiss people like Wickham as prodigies, there's still much to learn from their habits that perhaps further elevate their natural talent. In a <a href="https://www.quora.com/What-does-a-typical-work-day-look-like-for-you">Quora thread</a>, he described his typical work day as follows:
+Although it's easy to dismiss people like Wickham as prodigies, there's still much to learn from their habits that perhaps further elevate their natural talent. In a <a href="https://www.quora.com/What-does-a-typical-work-day-look-like-for-you">Quora thread</a>, he described his typical work day as:
 
 >Generally, my goal is to avoid interruptions so that I can do “deep work” focussing intently on a single problem at a time. I turn off pretty much every notification that I can: I only allow a few apps on my phone to send notifications, I’ve turned off every slack notification that I can find, I only track active projects on github, and generally try to train myself to avoid caring about numbers (i.e. I have email folders that have >50,000 unread emails).
 
