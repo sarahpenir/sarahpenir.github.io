@@ -17,7 +17,7 @@ tags:
 
 ---
 
-Last January, I had the privilege to attend the Plant and Animal Genome Conference XXVI in San Diego, California. My boss calls it the only essential agrigenomics conference anyone needs to attend, and understandably so, because the big names in genomics—ones I would have never thought of coming into being beyond journal article bylines—are consistent attendees of this conference. The conference was divided into workshop sessions that tackled updates and recent developments from specific fields of study. I particularly enjoyed the sessions dedicated to bioinformatics in spite of my episodic inability to grasp the highly computational discussions.
+Last January, I had the privilege of attending the Plant and Animal Genome Conference XXVI in San Diego, California. My boss calls it the only essential agrigenomics conference anyone needs to attend, and understandably so, because the big names in genomics—ones I would have never thought of coming into being beyond journal article bylines—are consistent attendees of this conference. The conference was divided into workshop sessions that tackled updates and recent developments from specific fields of study. I particularly enjoyed the sessions dedicated to bioinformatics in spite of my episodic inability to grasp the highly computational discussions.
 
 <!-- readmore -->
 
