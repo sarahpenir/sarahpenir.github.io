@@ -24,7 +24,7 @@ Some of the expressions that kept on cropping up all the way through the confere
 
 * Short-read sequencing technologies (e.g. Illumina) enable the identification of single nucleotide polymorphisms (SNPs).
 * Long-range single-molecule sequencing technologies (e.g. PacBio, Oxford Nanopore) elucidate structural variants (SVs), repetitive sequences, and microsatellites.
-* Phasing technologies (e.g. 10x Genomics Chromium, Dovetail Genomics Hi-C) employs sparse sequencing (vs. true long-read sequencing) for genome scaffolding and phasing, with only a modest cost increase over standard short-read sequencing.
+* Phasing technologies (e.g. 10x Genomics Chromium, Dovetail Genomics Hi-C) employ sparse sequencing (vs. true long-read sequencing) for genome scaffolding and phasing, with only a modest cost increase over standard short-read sequencing.
 
 Discussions on short-read and long-read sequencing are far too common, and thus the rest of the entry will center on the science behind phasing technologies.
 
