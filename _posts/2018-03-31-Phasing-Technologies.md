@@ -11,6 +11,7 @@ categories:
 tags:
   - phasing
   - sequencing
+  - NGS
   - 10x Genomics Chromium
   - Dovetail Hi-C
 
@@ -30,17 +31,17 @@ Discussions on short-read and long-read sequencing are far too common, and thus 
 
 ## 10x Genomics Chromium
 
-![chromium](https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/chromium2.png)
+<p align="center">![chromium](https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/chromium2.png)</p>
 
-<a href="http://www.gqinnovationcenter.com/services/sequencing/chromium.aspx?l=e">[Image Source]</a>
+<a href="http://www.gqinnovationcenter.com/services/sequencing/chromium.aspx?l=e">[Overview of 10x Genomics Chromium]</a>
 
 The technology takes advantage of a reagent consisting of several gel beads or GEM (gel bead in emulsion droplet), each of which contains several copies of a 16-base barcode unique to that bead and amplification reagents (kinda reminiscent of 454 sequencing). A microfluidic system in the form of the “Chromium Controller” partitions and delivers high-molecular-weight DNA to the beads, such that each bead contains only around 10 molecules (~ 0.5 Mb or 0.01% of the diploid human genome). The molecular biology of the system is arranged to produce constructs possessing the barcode, ~350 bp of gDNA from a molecule, and Illumina adapters. The constructs can be sequenced in an Illumina instrument, producing linked reads or paired reads organized by barcode and originating from the same molecule. The technology is able to generate phased data because the possibility of two gDNA molecules from the same locus with opposing haplotypes (i.e. alleles from pair of chromosomes) being present together is almost impossible <a href="https://genome.cshlp.org/content/27/5/757.long">[2]</a>.
 
 ## Dovetail Genomics Hi-C
 
-![hi-c](https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/hi-c.png)
+<p align="center">![hi-c](https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/hi-c.png)</p>
 
-<a href="https://dovetailgenomics.com/wp-content/uploads/2018/02/Hi-C-kit_productHighlight.pdf">[Image Source]</a>
+<a href="https://dovetailgenomics.com/wp-content/uploads/2018/02/Hi-C-kit_productHighlight.pdf">[Overview of Dovetail Genomics Hi-C]</a>
 
 Chromatin capture-based methods rely on the fact that, after fixation, DNA segments in close proximity in the nucleus are more likely to be ligated together than distant regions. Hi-C capitalizes on this method to generate sequencing libraries that include genomic regions in close spatial, but distant linear, proximity. The chromatin is crosslinked with formaldehyde, and the cross-linked chromatin is digested with a restriction enzyme that leaves a 5' overhang. The 5' overhang is filled with a biotinylated residue. Under a dilute condition that favors ligation events between crosslinked fragments, blunt-end fragments produce chimeric molecules. The crosslinks are reversed, and a Hi-C library is created by purifying and enriching biotin-containing fragments. A Hi-C library with proper adapters can then be sequenced in an Illumina instrument <a href = "http://science.sciencemag.org/content/326/5950/289.full?sid=e51f99c1-518d-41fd-b840-95ed437e647a">[3]</a>.
 
