@@ -28,7 +28,7 @@ I've been working with huge tables lately (at least 50,000 rows or columns). Som
 
 ### Select data frame columns by vector of names using dplyr
 
-```
+```R
 > library(dplyr)
 > df <- data.frame(col1=c(1,2,3), col2=c(4,5,6), col3=c(7,8,9), col4=c(10,11,12))
 > df
@@ -50,7 +50,7 @@ I've been working with huge tables lately (at least 50,000 rows or columns). Som
 
 ### Sort data frame columns according to vector of names
 
-```
+```R
 > df <- data.frame(col1=c(1,2,3), col2=c(4,5,6), col3=c(7,8,9), col4=c(10,11,12))
 > df
   
@@ -71,7 +71,7 @@ I've been working with huge tables lately (at least 50,000 rows or columns). Som
 
 ### Sort data frame rows according to vector of names
 
-```
+```R
 > df <- data.frame(name=letters[1:4], value=c(rep(TRUE, 2), rep(FALSE, 2)))
 > df
 
@@ -92,13 +92,13 @@ I've been working with huge tables lately (at least 50,000 rows or columns). Som
 4    d FALSE
 ```
 
-Note: Both ``df``` and ```vector``` must have identical elements and not contain duplicate values.
+Note: Both ```df``` and ```vector``` must have identical elements and not contain duplicate values.
 
 ### Cast multiple value.var columns using reshape2 and data.table
 
-```
->library(reshape2)
->library(data.table)
+``` R
+> library(reshape2)
+> library(data.table)
 > df <- data.frame(x1 = rep(1:3, each = 3),
 +                  x2 = letters[rep(1:3, 3)],
 +                  col1 = sample(10, 9, TRUE),
