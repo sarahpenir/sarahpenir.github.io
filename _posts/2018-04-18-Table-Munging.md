@@ -24,8 +24,6 @@ tags:
 
 I've been working with huge tables lately (at least 50,000 rows or columns). Sometimes you think you know all the basic commands you need to string together to get through any trouble, until a seemingly easy problem comes along to break this notion into a million pieces. Here are some handy table munging tricks:
 
-<!-- readmore -->
-
 ### Select data frame columns by vector of names using dplyr
 
 ```R
@@ -47,6 +45,7 @@ I've been working with huge tables lately (at least 50,000 rows or columns). Som
 2    2    8
 3    3    9
 ```
+<!-- readmore -->
 
 ### Sort data frame columns according to vector of names
 
