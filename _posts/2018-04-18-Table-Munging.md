@@ -27,7 +27,7 @@ I've been working with huge tables lately (at least 50,000 rows or columns). Som
 * [Select data frame columns by vector of names using dplyr](#select-data-frame-columns-by-vector-of-names-using-dplyr)  
 * [Sort data frame columns according to vector of names](#sort-data-frame-columns-according-to-vector-of-names)
 * [Sort data frame rows according to vector of names](#sort-data-frame-rows-according-to-vector-of-names)
-* [Cast multiple value.var columns using ```reshape2``` and ```data.table```](#cast-multiple-valuevar-columns-using-reshape2-and-datatable)
+* [Cast multiple value.var columns using reshape2 and data.table](#cast-multiple-valuevar-columns-using-reshape2-and-datatable)
 
 <!-- readmore -->
 
