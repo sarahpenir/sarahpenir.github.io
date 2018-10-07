@@ -21,7 +21,7 @@ mathjax: true
 
 ---
 
-Sometime ago, when I thought I didn't have any on my plate (a gross miscalculation as it turns out) during my post-MSc graduation lull, I applied for a financial aid to take Andrew Ng's Machine Learning course in <a href = "https://www.coursera.org/learn/machine-learning">Coursera</a>. Having been a victim of the all too common case of very smart people being unable to explain themselves well and given Ng's caliber, I didn't think I would be able to wrap my head around the lectures. I'm on my 8th week now, and it's honestly one of the things I look forward to when weekends roll around. However, my brain's wiring dictates that my understanding of any concept only becomes granular when I force myself to write about it. Here is an attempt at linear regression and gradient descent.
+Some time ago, when I thought I didn't have any on my plate (a gross miscalculation as it turns out) during my post-MSc graduation lull, I applied for a financial aid to take Andrew Ng's Machine Learning course in <a href = "https://www.coursera.org/learn/machine-learning">Coursera</a>. Having been a victim of the all too common case of very smart people being unable to explain themselves well and given Ng's caliber, I didn't think I would be able to wrap my head around the lectures. I'm on my 8th week now, and it's honestly one of the things I look forward to when weekends roll around. However, my brain's wiring dictates that my understanding of any concept only becomes granular when I force myself to write about it. Here is an attempt at linear regression and gradient descent.
 
 <!-- readmore -->
 
