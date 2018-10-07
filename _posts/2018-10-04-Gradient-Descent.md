@@ -45,34 +45,46 @@ Our ultimate goal is to minimize the cost function. In other words, we want to m
 ## Gradient Descent
 Keeping in mind that our ultimate goal is to minimize the cost function $$J(\theta _{_{0}}, \theta _{_{1}})$$, we can start with some random values for $$\theta_{0}$$ and $$\theta_{1}$$, and keep changing or updating the values until we end up at a minimum. To implement this, we can use gradient descent, an efficient optimization algorithm that allows a model to learn the gradient or direction it should take to reduce errors. The algorithm can be formally presented as follows: 
 
-<div style="text-align: left">
 $$
 \begin{equation}
-\text{ repeat until convergence \{}\\
-\theta_j{} := \theta_j{} - \alpha \frac{\partial }{\partial \theta_j{}}J(\theta_0, \theta_1)\\
-\text{ (for j = 1 and j = 0)}\\
-\}
+\text{ repeat until convergence: \{}\\
+\theta_0{} := \theta_0{} - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x^{(i)}) - y^{(i)})\\
+\theta_1{} := \theta_1{} - \alpha\frac{1}{m}\sum_{i=1}^{m}((h_\theta(x^{(i)}) - y^{(i)})\cdot x^{(i)})\\
+\text{\}}
 \end{equation}
 $$
-</div>
 
 where $$\alpha$$ or the learning rate or how quickly we approach the minimum.
 
 We know we have succeeded when the cost function is at its minimum. Graphically, if we put $$\theta_0$$ on the x-axis, $$\theta_1$$ on the y-axis, and the cost function $$J(\theta _{_{0}}, \theta _{_{1}})$$ on the vertical z-axis, this looks like reaching the bottom area of this graph:
 
-
+[image]
 
 ## Linear Regression with Multiple Variables
-For multivariate linear regression, wherein multiple correlated dependent variables are being predicted, the gradient descent equation maintains the same form and is repeated for the “n” features being taken into consideration:
-(insert formula)
+
+For multivariate linear regression, wherein multiple correlated dependent variables are being predicted, the gradient descent equation maintains the same form and is repeated for the $$n$$ features being taken into consideration:
+
+$$
+\begin{equation}
+\text{ repeat until convergence: \{}\\
+\theta_j{} := \theta_j{} - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x^{(i)}) - y^{(i)})\cdot x_{j}^{(i)}\\
+\text{ for j:= 0...n}\\
+\text{\}}
+\end{equation}
+$$
 
 ## Learning Rate
-Caution must be exercised when choosing the learning rate alpha. A sufficiently small alpha will cause the cost function J(theta) to decrease on very iteration. However, if alpha is too small, the gradient descent will take a while to converge. If alpha is too large, J(theta) may not decrease on every iteration and may fail to converge.
+Caution must be exercised when choosing the learning rate $$\alpha$$. A sufficiently small $$\alpha$$ will cause the cost function $$J(\theta)$$ to decrease on very iteration. However, if $$\alpha$$ is too small, the gradient descent will take a while to converge. If $$\alpha$$ is too large, $$J(\theta)$$ may not decrease on every iteration and may fail to converge.
 
 ## Speeding Up Gradient Descent
-The process of converging to a minimum can be sped through two techniques, namely feature scaling and mean normalization. Feature scaling refers to the process of framing the features within the -1 < x < 1 range, and it involves dividing the input values by the range of the input variable (i.e. maximum value minus the minimum value). Mean normalization, on the other hand, necessitates the subtraction of an average value from the values, in order to make the features have an approximately zero mean. To implement feature scaling and mean normalization, the input values can be adjusted as follows:
-(insert formula)
+
+The process of converging to a minimum can be sped through two techniques, namely feature scaling and mean normalization. Feature scaling refers to the process of framing the features within the $$-1 < x < 1$$ range, and it involves dividing the input values by the range of the input variable (i.e., maximum value minus the minimum value). Mean normalization, on the other hand, necessitates the subtraction of an average value from the values, in order to make the features have an approximately zero mean. To implement feature scaling and mean normalization, the input values can be adjusted as follows:
+
+$$
+x_{i:=}\frac{x_{i} - \mu_{i}}{s_{i}},
+\end{equation}
+$$
+
+where $$\mu_{i}$$ is the average of all the values for feature $$(i)$$, and $$s_{i}$$ may be the range of the input variable (i.e., maximum value minus the minimum value) or the standard deviation.
 
 ## Implementation of Linear Regression in R
-
-
