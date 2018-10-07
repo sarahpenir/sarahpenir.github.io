@@ -21,7 +21,7 @@ mathjax: true
 
 ---
 
-Sometime ago, when I thought I didn't have any on my plate (a gross miscalculation as it turns out) during my post-MSc graduation lull, I applied for a financial aid for Andrew Ng's Machine Learning course in <a href = "https://www.coursera.org/learn/machine-learning">Coursera</a>. Having been a victim of the all too common case of very smart people being unable to explain themselves well and given Ng's caliber, I didn't think I would be able to wrap my head around the lectures. I'm on my 8th week now, and it's honestly one of the things I look forward to when weekends roll around. However, my brain's wiring dictates that my understanding of any concept only becomes granular when I force myself to write about it. Here is an attempt at linear regression and gradient descent.
+Sometime ago, when I thought I didn't have any on my plate (a gross miscalculation as it turns out) during my post-MSc graduation lull, I applied for a financial aid to take Andrew Ng's Machine Learning course in <a href = "https://www.coursera.org/learn/machine-learning">Coursera</a>. Having been a victim of the all too common case of very smart people being unable to explain themselves well and given Ng's caliber, I didn't think I would be able to wrap my head around the lectures. I'm on my 8th week now, and it's honestly one of the things I look forward to when weekends roll around. However, my brain's wiring dictates that my understanding of any concept only becomes granular when I force myself to write about it. Here is an attempt at linear regression and gradient descent.
 
 <!-- readmore -->
 
@@ -67,7 +67,7 @@ We know we have succeeded when the cost function is at its minimum. Graphically,
 
 <p align="center"><img src="https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2018-10-07-linear_regression1.png"></p>
 
-<p align="center">Visualization of gradient descent. Credit: Andrew Ng (Machine Learning).</p>
+*<p align="center">Visualization of gradient descent. Credit: Andrew Ng (Machine Learning).</p>*
 
 ## Linear Regression with Multiple Variables
 
@@ -121,7 +121,7 @@ scatter.smooth(x=cars$speed, y=cars$dist, main="Dist ~ Speed") ## Create scatter
 
 <p align="center"><img src="https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2018-10-07-linear_regression2.png"></p>
 
-<p align="center">Scatter plot of the "cars" dataset.</p>
+*<p align="center">Scatter plot of the "cars" dataset.</p>*
 
 
 The scatter plot and the smoothing line suggest a linear relationship between the variables ```dist``` and ```speed```.
