@@ -34,25 +34,29 @@ It is used to predict values with a constant slope and within a continuous range
 ## Cost Functions
 What metric do we use to determine whether a combination of parameters is a good fit? Cost functions serve as a measure of how well or wrong the model is performing in terms of estimating the relationship between $$x$$ and $$y. Cost functions are typically expressed as the difference between the predicted value and the actual value. In the case of linear regression, the mean squared error (MSE) function is used:
 
+$$
 \begin{equation}
 J(\theta _{_{0}}, \theta _{_{1}}) = \frac{1}{2m}\sum_{i=1}^{m}(h_{\theta }(x^{(i)}) - y^{(i)})^{2}
 \end{equation}
+$$
 
 Our ultimate goal is to minimize the cost function. In other words, we want to minimize the difference between the predicted and actual values (minimize $$J(\theta _{_{0}}, \theta _{_{1}})$$).
 
 ## Gradient Descent
 Keeping in mind that our ultimate goal is to minimize the cost function $$J(\theta _{_{0}}, \theta _{_{1}})$$, we can start with some random values for $$\theta_{0}$$ and $$\theta_{1}$$, and keep changing or updating the values until we end up at a minimum. To implement this, we can use gradient descent, an efficient optimization algorithm that allows a model to learn the gradient or direction it should take to reduce errors. The algorithm can be formally presented as follows: 
 
+$$
 \begin{equation}
 \text{ repeat until convergence \{}\\
 \theta_j{} := \theta_j{} - \alpha \frac{\partial }{\partial \theta_j{}}J(\theta_0, \theta_1)\\
 \text{ (for j = 1 and j = 0)}\\
 \}
 \end{equation}
+$$
 
-where alpha or the learning rate or how quickly we approach the minimum.
+where $$\alpha$$ or the learning rate or how quickly we approach the minimum.
 
-We know we have succeeded when the cost function is at its minimum. Graphically, if we put theta0 on the x-axis, theta1 on the y-axis, and the cost function on the vertical , z-axis, this looks like reaching the bottom area of this graph.
+We know we have succeeded when the cost function is at its minimum. Graphically, if we put $$\theta_0$$ on the x-axis, $$\theta_1$$ on the y-axis, and the cost function $$J(\theta _{_{0}}, \theta _{_{1}})$$ on the vertical z-axis, this looks like reaching the bottom area of this graph:
 
 ## Linear Regression with Multiple Variables
 For multivariate linear regression, wherein multiple correlated dependent variables are being predicted, the gradient descent equation maintains the same form and is repeated for the “n” features being taken into consideration:
@@ -66,5 +70,3 @@ The process of converging to a minimum can be sped through two techniques, namel
 (insert formula)
 
 ## Implementation of Linear Regression in R
-
-
