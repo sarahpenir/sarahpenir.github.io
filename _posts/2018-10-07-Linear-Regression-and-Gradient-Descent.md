@@ -67,7 +67,7 @@ We know we have succeeded when the cost function is at its minimum. Graphically,
 
 <p align="center"><img src="https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2018-10-07-linear_regression1.png"></p>
 
-*<p align="center">Visualization of gradient descent. Credit: Andrew Ng (Machine Learning).</p>*
+<p align="center"><i>Visualization of gradient descent. Credit: Andrew Ng (Machine Learning).</i></p>
 
 ## Linear Regression with Multiple Variables
 
@@ -121,7 +121,7 @@ scatter.smooth(x=cars$speed, y=cars$dist, main="Dist ~ Speed") ## Create scatter
 
 <p align="center"><img src="https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2018-10-07-linear_regression2.png"></p>
 
-*<p align="center">Scatter plot of the "cars" dataset.</p>*
+<p align="center"><i>Scatter plot of the "cars" dataset.</i></p>
 
 
 The scatter plot and the smoothing line suggest a linear relationship between the variables ```dist``` and ```speed```.
