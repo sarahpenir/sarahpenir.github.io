@@ -14,7 +14,7 @@ tags:
 - human development index
 - HDI
 author_profile: yes
-image: "https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2019-01-06-Global-HDI2.png"
+og_image: "https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2019-01-06-Global-HDI2.png"
 
 ---
 
