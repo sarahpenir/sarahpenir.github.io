@@ -160,4 +160,4 @@ worldHDI
 
 ## What can we say about the data?
 
-At a glance, majority of African countries have low HDI while the superpowers have high HDI. What would be interesting to look at later on are countries with the same Gross National Income (GNI) per capita but with different human development outcomes for comparison of government policy priorities.
+At a glance, majority of African countries have low HDI while the superpowers have high HDI. What would be interesting to look at later on are countries with the same Gross National Income (GNI) per capita but with different human development outcomes for the sake of comparing government policy priorities.
