@@ -68,6 +68,7 @@ worldplot <- ggplot() +
 worldplot
 ```
 <p align="center"><img src="https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2019-01-06-World-Map.png"></p>
+
 ## Loading and cleaning the data
 
 Let's load the data from the World Data Visualization Prize challenge. For the sake of clarity, we select only the ```indicator```, ```human.development.index```, and ```ISO.Country.code``` columns. Within the ```select()``` function, the ```indicator``` column is renamed to ```region``` for the ```inner_join()``` we will do later between the ```world``` and ```worldgovt``` datasets.
@@ -156,6 +157,7 @@ worldHDI <- ggplot(data = worldSubset, mapping = aes(x = long, y = lat, group = 
 worldHDI
 ```
 <p align="center"><img src="https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2019-01-06-Global-HDI2.png"></p>
+
 ## What can we say about the data?
 
 At a glance, majority of African countries have low HDI while the superpowers have high HDI. What would be interesting to look at later on are countries with the same Gross National Income (GNI) per capita but with different human development outcomes for comparison of government policy priorities.
