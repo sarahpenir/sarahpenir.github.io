@@ -22,7 +22,7 @@ I remember looking at Freedom House's beautiful (but alarming) set of visualizat
 
 ## Objective
 
-* To use ```ggplot2``` to make a plot of the global human development index (HDI). The ```HDI``` metric from the United Nations Development Program (UNDP) is a summary measure of the average achievement of a country in key dimensions of human development: a long and healthy life, being knowledgeable, and a decent standard of living (value ranges from 0 to 1, higher = better).
+* To use ```ggplot2``` to plot the global human development index (HDI). The ```HDI``` metric from the United Nations Development Program (UNDP) is a summary measure of the average achievement of a country in key dimensions of human development: a long and healthy life, being knowledgeable, and a decent standard of living (value ranges from 0 to 1, higher = better).
 
 ## Load the libraries 
 
