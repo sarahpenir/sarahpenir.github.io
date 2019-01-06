@@ -37,7 +37,7 @@ options(scipen = 999) ## To disable scientific notation
 
 The ```maps``` package contains outlines of several continents, countries, and states (examples: ```world```, ```usa```, ```state```) that have been with R for a long time. ```maps``` has its own plotting function, but we will use the ```map_data()``` function of ```ggplot2``` to make a data frame that ```ggplot2``` can operate on.
 
-## Making data frames from map outlines 
+## Making a data frame from map outlines 
 
 ```R
 world <- map_data("world")
