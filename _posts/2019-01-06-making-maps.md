@@ -18,13 +18,13 @@ og_image: "https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/mas
 
 ---
 
-I remember looking at Freedom House's beautiful (but alarming) set of visualizations on the <a href = "https://freedomhouse.org/report/freedom-world/freedom-world-2018"> status of global democracy in 2018</a> with a burning curiosity about the code underlying the colored maps. Given the biological nature of the data that I regularly work with, all hopes of making such fancy maps out of genuine necessity are gone-- not until the unveiling of the <a href= "https://informationisbeautiful.net/2018/announcing-the-world-data-visualization-prize-a-40k-dataviz-challenge/">dataviz challenge</a> of David McCandless of Information is Beautiful and the World Government Summit. I have no intention of participating, but I love me some <a href = "https://docs.google.com/spreadsheets/d/11LhOlwsloUuA495r-04IDwciMqNrLwWGpveqpF61WXU/edit#gid=249389891">tidy data</a> that I can cop without scraping. Now on to the code:
+I remember looking at Freedom House's beautiful (but alarming) set of visualizations on the <a href = "https://freedomhouse.org/report/freedom-world/freedom-world-2018"> status of global democracy in 2018</a> with a burning curiosity about the code underlying the colored maps. Given the biological nature of the data that I regularly work with, I already abandoned all hope of making such fancy maps out of genuine necessity—not until the unveiling of the <a href= "https://informationisbeautiful.net/2018/announcing-the-world-data-visualization-prize-a-40k-dataviz-challenge/">dataviz challenge</a> of David McCandless of Information is Beautiful and the World Government Summit. I have no intention of participating, but I love me some <a href = "https://docs.google.com/spreadsheets/d/11LhOlwsloUuA495r-04IDwciMqNrLwWGpveqpF61WXU/edit#gid=249389891">tidy data</a> that I can cop without scraping. Now on to the code:
 
 <!-- readmore -->
 
 ## Objective
 
-* To use ```ggplot2``` to plot the global human development index (HDI). The ```HDI``` metric from the United Nations Development Program (UNDP) is a summary measure of the average achievement of a country in key dimensions of human development: a long and healthy life, being knowledgeable, and a decent standard of living (value ranges from 0 to 1, higher = better).
+* To use ```ggplot2``` to plot the global human development index (HDI). The ```HDI``` metric from the United Nations Development Program (UNDP) is a summary measure of the average achievement of a country in key dimensions of human development: a long and healthy life, being knowledgeable, and a decent standard of living (value ranges from ```0``` to ```1```, higher = better).
 
 ## Load the libraries 
 
@@ -60,7 +60,7 @@ The new ```world``` data frame has the following variables: ```long``` for longi
 
 ## Making a simple world map
 
-```geom_polygon()``` draws maps with gray fill by default and ```coord_fixed()``` specifies the aspect ratio of the plot (every y unit is 1.3 times longer than the x unit).
+```geom_polygon()``` draws maps with gray fill by default and ```coord_fixed()``` specifies the aspect ratio of the plot (every ```y``` unit is 1.3 times longer than the ```x``` unit).
 
 ```R
 world <- map_data("world")
@@ -162,4 +162,4 @@ worldHDI
 
 ## What can we say about the data?
 
-At a glance, majority of African countries have low HDI while the superpowers have high HDI. What would be interesting to look at later on are countries with the same Gross National Income (GNI) per capita but with different human development outcomes for the sake of comparing government policy priorities.
+At a glance, majority of African countries have low HDI while the superpowers have high HDI. In the interest of comparing government policy priorities, what would be interesting to look at later on are countries with the same Gross National Income (GNI) per capita but with different human development outcomes.
