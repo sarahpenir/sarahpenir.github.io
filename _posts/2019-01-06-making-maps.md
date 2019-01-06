@@ -15,6 +15,7 @@ tags:
 - HDI
 author_profile: yes
 image: "https://raw.githubusercontent.com/sarahpenir/sarahpenir.github.io/master/_posts/images/2019-01-06-Global-HDI2.png"
+
 ---
 
 I remember looking at Freedom House's beautiful (but alarming) set of visualizations on the <a href = "https://freedomhouse.org/report/freedom-world/freedom-world-2018"> status of global democracy in 2018</a> with a burning curiosity about the code underlying the colored maps. Given the biological nature of the data that I regularly work with, all hopes of making such fancy maps out of genuine necessity are gone-- not until the unveiling of the <a href= "https://informationisbeautiful.net/2018/announcing-the-world-data-visualization-prize-a-40k-dataviz-challenge/">dataviz challenge</a> of David McCandless of Information is Beautiful and the World Government Summit. I have no intention of participating, but I love me some <a href = "https://docs.google.com/spreadsheets/d/11LhOlwsloUuA495r-04IDwciMqNrLwWGpveqpF61WXU/edit#gid=249389891">tidy data</a> that I can cop without scraping. Now on to the code:
