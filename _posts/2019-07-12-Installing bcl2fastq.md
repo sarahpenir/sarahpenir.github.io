@@ -7,21 +7,22 @@ comments: true
 share: true
 related: true
 categories:
-  - Ubuntu
+  - Linux
 tags:
   - bcl2fastq
   - Ubuntu
+  - Linux
   - boost error bcl2fastq
   - cmake error bcl2fastq
   - sys/stat.h error bcl2fastq
 
 ---
 
-Unlike the MiSeq which automatically converts binary base call (BCL) files into FASTQ format using the MiSeq Reporter, output from the NextSeq, HiSeq, and NovaSeq systems requires user-developed or third-party data analysis tools, such as ```bcl2fastq```, to be converted into FASTQ. Aside from enabling the conversion of BCL files to FASTQ, ```bcl2fastq``` can also assign sequencing data to specific samples based on their barcode (demultiplexing), trim adapters and Unique Molecular Identifiers (UMIs), and include the UMIs in the read names within the FASTQ files.
+Unlike the MiSeq which automatically converts binary base call (BCL) files into FASTQ format using the MiSeq Reporter, output from the NextSeq, HiSeq, and NovaSeq systems require user-developed or third-party data analysis tools, such as ```bcl2fastq```, to be converted into FASTQ. Aside from enabling the conversion of BCL files into FASTQ, ```bcl2fastq``` can also assign sequencing data to specific samples based on their barcode (demultiplexing), trim adapters and Unique Molecular Identifiers (UMIs), and include the UMIs in the read names within the FASTQ files.
 
 <!-- readmore -->
 
-Compiling bcl2fastq is pretty straightforward as long as the following dependencies are met:
+Compiling ```bcl2fastq``` is pretty straightforward as long as the following dependencies are met:
 
 * zlib
 * librt
@@ -59,7 +60,6 @@ In case the system complains about the absence of ```sys/stat.h```, do the follo
 ```
 sudo mkdir -p /usr/include/sys
 sudo ln -s /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/sys/stat.h
-
 ```
 
 After everything, ```bcl2fastq``` is now ready to use!
