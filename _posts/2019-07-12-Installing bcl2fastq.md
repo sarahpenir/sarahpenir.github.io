@@ -17,7 +17,7 @@ tags:
 
 ---
 
-Unlike the MiSeq which automatically converts binary base call (BCL) files into FASTQ format using the MiSeq reporter, output from the NextSeq, HiSeq, and NovaSeq systems requires user-developed or third-party data analysis tools, such as ```bcl2fastq```, to be converted into FASTQ. Aside from enabling the conversion of BCL files to FASTQ, ```bcl2fastq``` can also assign sequencing data to specific samples based on their barcode (demultiplexing), trim adapters and Unique Molecular Identifiers (UMIs), and include the UMIs in the read names within the FASTQ files.
+Unlike the MiSeq which automatically converts binary base call (BCL) files into FASTQ format using the MiSeq Reporter, output from the NextSeq, HiSeq, and NovaSeq systems requires user-developed or third-party data analysis tools, such as ```bcl2fastq```, to be converted into FASTQ. Aside from enabling the conversion of BCL files to FASTQ, ```bcl2fastq``` can also assign sequencing data to specific samples based on their barcode (demultiplexing), trim adapters and Unique Molecular Identifiers (UMIs), and include the UMIs in the read names within the FASTQ files.
 
 <!-- readmore -->
 
