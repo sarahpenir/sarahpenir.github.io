@@ -28,8 +28,8 @@ findmnt -l | grep noexec
 ```
 
 ```
-TARGET				SOURCE		FSTYPE          OPTIONS
-/media/disk/		/dev/sda6	fuseblk         rw,nosuid,nodev,relatime,noexec
+TARGET    SOURCE		FSTYPE  OPTIONS
+/media/disk/  /dev/sda6 fuseblk rw,nosuid,nodev,relatime,noexec
 ```
 
 To fix this, unmount and mount the disk again, but this time with an ```exec``` flag:
