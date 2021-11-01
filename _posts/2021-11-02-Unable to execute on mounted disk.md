@@ -39,7 +39,6 @@ To fix this, unmount and mount the disk again, but this time with an ```exec``` 
 ```
 sudo umount /media/disk/		
 sudo mount -o rw,exec /dev/sda6
-
 ```
 
 A more permanent solution would be to edit ```/etc/fstab``` with your editor of choice:
@@ -55,9 +54,7 @@ UUID=135C3E180E89ABB3	/media/disk/	ntfs-3g	auto,users,permissions,nls=utf8  0 0
 ```
 to
 
-```
-UUID=135C3E180E89ABB3	/media/disk/	ntfs-3g	auto,users,permissions,exec,nls=utf8  0 0
-```
+```UUID=135C3E180E89ABB3	/media/disk/	ntfs-3g	auto,users,permissions,exec,nls=utf8  0 0```
 
 The position of the ```exec``` flag is important as it overwrites the default ```noexec``` applied by ```user```. This behavior is explained in the ```user``` section of ```man mount```:
 
