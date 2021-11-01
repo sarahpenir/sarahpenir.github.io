@@ -28,7 +28,7 @@ findmnt -l | grep noexec
 ```
 
 ```
-TARGET    SOURCE		FSTYPE  OPTIONS
+TARGET       SOURCE	FSTYPE  OPTIONS
 /media/disk/  /dev/sda6 fuseblk rw,nosuid,nodev,relatime,noexec
 ```
 
