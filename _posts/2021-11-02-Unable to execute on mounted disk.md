@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Unable to execute a script on a mounted external drive on Linux"
+title: "Solution: Unable to execute a script on a mounted external drive on Linux"
 author_profile: true
 read_time: true
 comments: true
@@ -22,6 +22,8 @@ tags:
 ---
 
 If you're unable to execute a script on a mounted external drive on Linux, it's likely that a ```noexec``` flag has been invoked during the mounting of the disk. To check whether the desired volume has a ```noexec``` flag:
+
+<!-- readmore -->
 
 ```
 findmnt -l | grep noexec
