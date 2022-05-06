@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Reading List"
-    url: /categories/
+    url: /reading/
   - title: "Archive"
     url: /year-archive/
   - title: "Categories"
