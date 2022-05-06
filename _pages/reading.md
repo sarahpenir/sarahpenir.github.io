@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: single
 title: Reading List
 permalink: /reading/
 author_profile: true
+
 ---
 
 **2022**
