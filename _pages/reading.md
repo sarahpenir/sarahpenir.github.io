@@ -14,6 +14,7 @@ author_profile: true
 - The Gifts of Imperfection by Brene Brown
 - Highly Irregular: Why Tough, Through, and Dough Don't Rhyme—and Other Oddities of the English Language by Arika Okrent
 - Everything Is Fucked by Mark Manson
+- Reinventing Your Life by Jeffrey Young and Janet Klosko
 
 *Fiction*
 
@@ -22,3 +23,4 @@ author_profile: true
 - The Brothers Karamazov by Fyodor Dostoyevsky
 - The Great Gatsby by F. Scott Fitzgerald
 - Thus Spoke Zarathustra: A Book for All and None by Friedrich Nietzsche
+- O Cortiço (The Slum) by Aluísio Azevedo
