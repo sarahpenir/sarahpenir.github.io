@@ -15,6 +15,7 @@ author_profile: true
 - Highly Irregular: Why Tough, Through, and Dough Don't Rhyme—and Other Oddities of the English Language by Arika Okrent
 - Everything Is Fucked by Mark Manson
 - Reinventing Your Life by Jeffrey Young and Janet Klosko
+- Thinking, Fast and Slow by Daniel Kahneman (re-read)
 
 *Fiction*
 
