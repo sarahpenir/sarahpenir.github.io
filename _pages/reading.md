@@ -16,6 +16,7 @@ author_profile: true
 - Everything Is Fucked by Mark Manson
 - Reinventing Your Life by Jeffrey Young and Janet Klosko
 - Thinking, Fast and Slow by Daniel Kahneman (re-read)
+- The Denial of Death by Ernest Becker
 
 *Fiction*
 
@@ -25,3 +26,5 @@ author_profile: true
 - The Great Gatsby by F. Scott Fitzgerald
 - Thus Spoke Zarathustra: A Book for All and None by Friedrich Nietzsche
 - O Cortiço (The Slum) by Aluísio Azevedo
+- The Carrying by Ada Limón
+- If Not, Winter: Fragments of Sappho by Anne Carson
