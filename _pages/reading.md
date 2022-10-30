@@ -17,6 +17,8 @@ author_profile: true
 - Reinventing Your Life by Jeffrey Young and Janet Klosko
 - Thinking, Fast and Slow by Daniel Kahneman (re-read)
 - The Denial of Death by Ernest Becker
+- Not Nice by Aziz Gazipura
+- Headstrong: 52 Women Who Changed Science-and the World by Rachel Swaby
 
 *Fiction*
 
@@ -28,3 +30,19 @@ author_profile: true
 - O Cortiço (The Slum) by Aluísio Azevedo
 - The Carrying by Ada Limón
 - If Not, Winter: Fragments of Sappho by Anne Carson
+- The Bridge on the Drina by Ivo Andric
+- I Have More Souls Than One (Poem Collection) by Fernando Pessoa
+
+*Short Stories and Essays*
+
+- Science as a Vocation by Max Weber
+- The Meaning of Beauty in Exact Natural Science by Werner Karl Heisenberg
+- The Breakthrough by Daphne Du Maurier
+- Investigations of a Dog by Franz Kafka
+- Notes on Camp by Susan Sontag
+- The Veiled Woman by Anaïs Nin
+- Linda by Anaïs Nin
+- Little Birds by Anaïs Nin
+- Behind the Prison by Nagai Kafu
+- Closet LLB by Uno Koji
+- General Kim by Ryunosuke Akutagawa
