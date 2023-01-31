@@ -5,6 +5,13 @@ permalink: /reading/
 author_profile: true
 ---
 
+**2023**
+
+*Fiction*
+
+- Freshwater by Akwaeke Emezi
+- After Dark by Haruki Murakami
+
 **2022**
 
 *Non-Fiction*
