@@ -14,19 +14,6 @@ author_profile: true
 
 **2022**
 
-*Non-Fiction*
-
-- Last Chance to See by Douglas Adams & Mark Carwardine
-- The Great Mental Models Volume 1: General Thinking Concepts by Shane Parrish
-- The Gifts of Imperfection by Brene Brown
-- Highly Irregular: Why Tough, Through, and Dough Don't Rhyme—and Other Oddities of the English Language by Arika Okrent
-- Everything Is Fucked by Mark Manson
-- Reinventing Your Life by Jeffrey Young and Janet Klosko
-- Thinking, Fast and Slow by Daniel Kahneman (re-read)
-- The Denial of Death by Ernest Becker
-- Not Nice by Aziz Gazipura
-- Headstrong: 52 Women Who Changed Science-and the World by Rachel Swaby
-
 *Fiction*
 
 - Flowers for Algernon by Daniel Keyes
@@ -39,6 +26,19 @@ author_profile: true
 - If Not, Winter: Fragments of Sappho by Anne Carson
 - The Bridge on the Drina by Ivo Andric
 - I Have More Souls Than One (Poem Collection) by Fernando Pessoa
+
+*Non-Fiction*
+
+- Last Chance to See by Douglas Adams & Mark Carwardine
+- The Great Mental Models Volume 1: General Thinking Concepts by Shane Parrish
+- The Gifts of Imperfection by Brene Brown
+- Highly Irregular: Why Tough, Through, and Dough Don't Rhyme—and Other Oddities of the English Language by Arika Okrent
+- Everything Is Fucked by Mark Manson
+- Reinventing Your Life by Jeffrey Young and Janet Klosko
+- Thinking, Fast and Slow by Daniel Kahneman (re-read)
+- The Denial of Death by Ernest Becker
+- Not Nice by Aziz Gazipura
+- Headstrong: 52 Women Who Changed Science-and the World by Rachel Swaby
 
 *Short Stories and Essays*
 
