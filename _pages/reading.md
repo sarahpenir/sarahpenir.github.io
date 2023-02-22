@@ -11,6 +11,7 @@ author_profile: true
 
 - Freshwater by Akwaeke Emezi
 - After Dark by Haruki Murakami
+- Purple Hibiscus by Chimamanda Ngozi Adichie
 
 **2022**
 
