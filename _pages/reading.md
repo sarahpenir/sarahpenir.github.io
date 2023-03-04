@@ -13,6 +13,10 @@ author_profile: true
 - After Dark by Haruki Murakami
 - Purple Hibiscus by Chimamanda Ngozi Adichie
 
+*Non-Fiction*
+
+- Portraits from Memory: And Other Essays by Bertrand Russell
+
 **2022**
 
 *Fiction*
