@@ -12,10 +12,17 @@ author_profile: true
 - Freshwater by Akwaeke Emezi
 - After Dark by Haruki Murakami
 - Purple Hibiscus by Chimamanda Ngozi Adichie
+- The Lonely Londoners by Sam Selvon
+- Flowers Of Evil (Les Fleurs Du Mal) by Charles Baudelaire 
 
 *Non-Fiction*
 
 - Portraits from Memory: And Other Essays by Bertrand Russell
+
+*Short Stories and Essays*
+
+- B. Wordsworth by V.S. Naipaul
+- Ballad of the Little Black Boy by David Dabydeen
 
 **2022**
 
