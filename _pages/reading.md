@@ -4,6 +4,30 @@ title: Reading List
 permalink: /reading/
 author_profile: true
 ---
+**2025**
+
+*Fiction*
+
+- The Wandering by Intan Paramaditha
+- My Year of Rest and Relaxation by Ottessa Moshfegh
+- Heaven by Mieko Kawakami
+- Normal People by Sally Rooney
+- Pride and Prejudice by Jane Austen
+- Days at the Morisaki Bookshop by Satoshi Yagisawa
+
+*Non-Fiction*
+
+- Why Nations Fail by Daron Acemoglu and James Robinson
+
+*Short Stories and Essays*
+
+- The Blind Owl and Other Stories by Sadegh Hedayat
+- The Woman Who Had Two Navels and Tales of the Tropical Gothic by Nick Joaquin (re-read)
+- An Advertisement for Toothpaste by Ryszard Kapuściński
+
+**2024**
+
+Forgot to track
 
 **2023**
 
