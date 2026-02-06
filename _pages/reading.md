@@ -4,6 +4,17 @@ title: Reading List
 permalink: /reading/
 author_profile: true
 ---
+**2026**
+
+*Fiction*
+
+- On Earth We're Briefly Gorgeous by Ocean Vuong
+- Notes of a Crocodile by Qiu Maojin
+
+*Short Stories and Essays*
+
+- Salt Slow by Julia Armfield
+
 **2025**
 
 *Fiction*
