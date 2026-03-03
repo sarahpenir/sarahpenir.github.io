@@ -10,10 +10,17 @@ author_profile: true
 
 - On Earth We're Briefly Gorgeous by Ocean Vuong
 - Notes of a Crocodile by Qiu Maojin
+- Slaughterhouse Five by Kurt Vonnegut
+- Go Tell It on the Mountain by James Baldwin
+- The White Tiger by Adiga Aravind
 
 *Short Stories and Essays*
 
 - Salt Slow by Julia Armfield
+- Eure Heimat ist unser Albtraum by Hengameh Yaghoobifarah, Fatma Aydemir
+- The Cyberiad by Stanislaw Lem
+- We Should All Be Feminists by Chimamanda Ngozi Adichie
+- Dear Ijeawele, or A Feminist Manifesto in Fifteen Suggestions by Chimamanda Ngozi Adichie
 
 **2025**
 
@@ -29,6 +36,7 @@ author_profile: true
 *Non-Fiction*
 
 - Why Nations Fail by Daron Acemoglu and James Robinson
+- Some People Need Killing by Patricia Evangelista
 
 *Short Stories and Essays*
 
