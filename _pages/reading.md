@@ -13,6 +13,7 @@ author_profile: true
 - Slaughterhouse Five by Kurt Vonnegut
 - Go Tell It on the Mountain by James Baldwin
 - The White Tiger by Adiga Aravind
+- Perfection by Vincenzo Latronico (translated by Sophie Hughes)
 
 *Short Stories and Essays*
 
