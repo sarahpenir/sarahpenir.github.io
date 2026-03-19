@@ -22,6 +22,10 @@ author_profile: true
 - The Cyberiad by Stanislaw Lem
 - We Should All Be Feminists by Chimamanda Ngozi Adichie
 - Dear Ijeawele, or A Feminist Manifesto in Fifteen Suggestions by Chimamanda Ngozi Adichie
+- The Distance of the Moon by Italo Calvino
+- Without Colours by Italo Calvino
+- As Long as the Sun Lasts by Italo Calvino
+- Implosion by Italo Calvino
 
 **2025**
 
