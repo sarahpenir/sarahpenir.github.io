@@ -26,6 +26,8 @@ author_profile: true
 - Without Colours by Italo Calvino
 - As Long as the Sun Lasts by Italo Calvino
 - Implosion by Italo Calvino
+- The Custard Heart by Dorothy Parker
+- Big Blonde by Dorothy Parker
 
 **2025**
 
