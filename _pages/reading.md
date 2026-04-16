@@ -14,6 +14,8 @@ author_profile: true
 - Go Tell It on the Mountain by James Baldwin
 - The White Tiger by Adiga Aravind
 - Perfection by Vincenzo Latronico (translated by Sophie Hughes)
+- Midnight's Children by Salman Rushdie
+- The Anthropologists by Aysegül Savas
 
 *Short Stories and Essays*
 
