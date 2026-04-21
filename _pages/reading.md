@@ -16,6 +16,7 @@ author_profile: true
 - Perfection by Vincenzo Latronico (translated by Sophie Hughes)
 - Midnight's Children by Salman Rushdie
 - The Anthropologists by Aysegül Savas
+- Audition by Katie Kitamura
 
 *Short Stories and Essays*
 
